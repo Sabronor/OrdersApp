@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>All orders</title>
+</head>
+<script th:src="@{scripts/ordersDisplay.js}"></script>
+<link rel="stylesheet" th:href = "@{style/globalStyle.css}"/>
+<link rel="stylesheet" th:href = "@{style/ordersStyle.css}"/>
+<body>
+    <div id = "outer">
+        <div id = "inner">
+            <h1>Таблица заказов</h1>
+            <table id = "orders">
+                <tr id = "tableHead">
+                    <td colspan="2">Заказчик</td>
+                    <td colspan="2">Исполнитель</td>
+                    <td colspan="2">Тип ремонта</td>
+                </tr>
+            </table>
+            <button style="display: none;" id="prev" onclick="prevPage()">Предыдущая страница</button>
+            <button id="next" onclick="nextPage()">Следующая страница</button>
+        </div>
+    </div>
+</body>
+</html>

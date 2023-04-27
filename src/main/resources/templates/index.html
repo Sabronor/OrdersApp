@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Main menu</title>
+</head>
+<link rel="stylesheet" th:href = "@{style/globalStyle.css}"/>
+<link rel="stylesheet" th:href = "@{style/indexStyle.css}"/>
+<body>
+    <div id="outer">
+        <div id="inner">
+            <table>
+                <tr><td><a th:href= "@{/customer}">Добавить клиента</a></td></tr>
+                <tr><td><a th:href= "@{/executor}">Добавить исполнителя</a></td></tr>
+                <tr><td><a th:href= "@{/order}">Добавить заказ</a></td></tr>
+                <tr><td><a th:href= "@{/allOrders}">Просмотр заказов</a></td></tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

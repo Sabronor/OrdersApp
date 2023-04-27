@@ -1,0 +1,26 @@
+table, tr, td{
+    border: solid black 2px;
+    border-collapse: collapse;
+}
+
+table{
+    margin: auto;
+}
+
+td{
+    padding: 5px;
+}
+
+#tableHead{
+    background: gray;
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+button{
+    float: left;
+    width: 50%;
+}

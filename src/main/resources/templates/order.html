@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Add order page</title>
+</head>
+<script th:src = "@{scripts/orderScript.js}"></script>
+<link rel="stylesheet" th:href = "@{style/globalStyle.css}"/>
+<link rel="stylesheet" th:href = "@{style/orderStyle.css}"/>
+<body>
+    <div id="outer">
+        <div id="inner">
+            <table>
+                <tr>
+                    <td>Заказчик</td>
+                    <td>Исполнитель</td>
+                    <td>Вид работ</td>
+                </tr>
+                <tr>
+                    <td>
+                        <select id="customer">
+                            <option></option>
+                        </select>
+                    </td>
+                    <td>
+                        <select id="executor">
+                            <option></option>
+                        </select>
+                    </td>
+                    <td>
+                        <select id="work" onchange="onTypeChange()">
+                            <option></option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <button type="submit" onclick="sendOrder()">Добавить</button>
+        </div>
+    </div>
+</body>
+</html>

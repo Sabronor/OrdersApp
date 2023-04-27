@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Add executor page</title>
+</head>
+<script th:src="@{scripts/executorScript.js}"></script>
+<link rel="stylesheet" th:href = "@{style/executorStyle.css}"/>
+<link rel="stylesheet" th:href = "@{style/globalStyle.css}"/>
+<body>
+    <div id="outer">
+        <div id="inner">
+            <table>
+                <tr>
+                    <td>Имя: </td>
+                    <td><input type="text" id="name"></td>
+                </tr>
+                <tr>
+                    <td>Фамилия: </td>
+                    <td><input type="text" id="lastName"></td>
+                </tr>
+            </table>
+            
+            <div id="workType">
+                <div>Специализация:</div>
+                <select id="types"></select>
+            </div>
+
+            <button onclick="sendExecutor()">Отправить</button>
+        </div>
+    </dvi>
+</body>
+</html>

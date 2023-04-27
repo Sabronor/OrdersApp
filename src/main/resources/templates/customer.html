@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Add customer page</title>
+</head>
+<script th:src="@{scripts/customerScript.js}"></script>
+<link rel="stylesheet" th:href = "@{style/globalStyle.css}"/>
+<link rel="stylesheet" th:href = "@{style/customerStyle.css}"> 
+<body>
+    <div id="outer">
+        <div id="inner">
+            <table>
+                <tr>
+                    <td>Имя</td>
+                    <td><input id="name" type="text"></td>
+                </tr>
+                <tr>
+                    <td>Фамилия</td>
+                    <td><input id="lastName" type="text"></td>
+                </tr>
+                <tr>
+                    <td>Город</td>
+                    <td><input id="city" type="text"></td>
+                </tr>
+                <tr>
+                    <td>Номер телефона</td>
+                    <td><input id="phone" type="text"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button onclick="sendObject()">Отправить данные</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

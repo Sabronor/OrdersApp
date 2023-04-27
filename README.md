@@ -63,6 +63,5 @@ classDiagram
         id
         customer_id
         executor_id
-        work_type_id
     }
 ```

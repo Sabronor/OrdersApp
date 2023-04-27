@@ -10,12 +10,17 @@
  - Добавление заказа
  - Просмотр всех заказов
 
-Главное меню:
-[Главное меню][]
-[Добавление клиента][]
-[Добавление исполнителя][]
-[Добавление заказа][]
-[Просмотр заказов][]
+
+Главное меню:<br>
+<img src="https://github.com/Sabronor/OrdersApp/blob/master/show/Main_menu.gif?raw=true" width="500"/><br>
+Добавление клиента:<br>
+<img src="https://github.com/Sabronor/OrdersApp/blob/master/show/add_customer.gif?raw=true" width="500"/><br>
+Добавление исполнителя:<br>
+<img src="https://github.com/Sabronor/OrdersApp/blob/master/show/add_executor.gif?raw=true" width="500"/><br>
+Добавление заказа:<br>
+<img src="https://github.com/Sabronor/OrdersApp/blob/master/show/add_order.gif?raw=true" width="500"/><br>
+Просмотр заказов:<br>
+<img src="https://github.com/Sabronor/OrdersApp/blob/master/show/display_orders.gif?raw=true" width="500"/><br>
 
 
 Main.class

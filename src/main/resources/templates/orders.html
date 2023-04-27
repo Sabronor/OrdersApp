@@ -9,17 +9,24 @@
 <link rel="stylesheet" th:href = "@{style/ordersStyle.css}"/>
 <body>
     <div id = "outer">
-        <div id = "inner">
-            <h1>Таблица заказов</h1>
-            <table id = "orders">
-                <tr id = "tableHead">
-                    <td colspan="2">Заказчик</td>
-                    <td colspan="2">Исполнитель</td>
-                    <td colspan="2">Тип ремонта</td>
-                </tr>
-            </table>
-            <button style="display: none;" id="prev" onclick="prevPage()">Предыдущая страница</button>
-            <button id="next" onclick="nextPage()">Следующая страница</button>
+        <div id="inner">
+            <div>
+                <h1 style="margin: 0;">Таблица заказов</h1>
+                <table id = "orders">
+                    <tr id = "tableHead">
+                        <td colspan="2">Заказчик</td>
+                        <td colspan="2">Исполнитель</td>
+                        <td colspan="2">Тип ремонта</td>
+                    </tr>
+                </table>
+                <div style="height: 25px;">
+                    <button style="display: none;" id="prev" onclick="prevPage()">Предыдущая страница</button>
+                    <button id="next" onclick="nextPage()">Следующая страница</button>
+                </div>
+            </div>
+            <div>
+                <a th:href="@{/}">Назад</a>
+            </div>
         </div>
     </div>
 </body>

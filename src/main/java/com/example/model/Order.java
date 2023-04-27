@@ -22,7 +22,4 @@ public class Order {
 
     @OneToOne(targetEntity = Executor.class)
     public Executor executor;
-
-    @OneToOne(targetEntity = WorkType.class)
-    public WorkType workType;
 }

@@ -87,12 +87,10 @@ function sendOrder(){
 function createJSON(){
     let customerSelector = document.getElementById("customer");
     let executorSelector = document.getElementById("executor");
-    let workTypeSelector = document.getElementById("work");
 
     return {
         "customer" : customerSelector.selectedOptions[0].dataset.id,
-        "executor" : executorSelector.selectedOptions[0].dataset.id,
-        "workType" : workTypeSelector.selectedOptions[0].dataset.id
+        "executor" : executorSelector.selectedOptions[0].dataset.id
     };
 }
 

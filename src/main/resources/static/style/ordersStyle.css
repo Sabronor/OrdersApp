@@ -24,3 +24,8 @@ button{
     float: left;
     width: 50%;
 }
+
+#secondInner{
+    margin-top: 10px;
+    margin: auto;
+}

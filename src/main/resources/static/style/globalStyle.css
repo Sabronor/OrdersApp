@@ -23,3 +23,19 @@ input{
 select{
     width: 100%;
 }
+
+a{
+    display: block;
+    width: 200px;
+    height: 1.5em;
+    background: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    margin-top: 5px;
+}
+
+a:hover{
+    background: grey;
+}

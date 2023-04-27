@@ -40,7 +40,7 @@ function createRow(row){
     columnExecutorName.innerHTML = row["executor"]["name"];
     columnExecutorLastName.innerHTML = row["executor"]["lastName"];
 
-    columnWorkType.innerHTML = row["workType"]["type"];
+    columnWorkType.innerHTML = row["executor"]["type"]["type"];
 
     rowElement.appendChild(columnCustomerName);
     rowElement.appendChild(columnCustomerLastName);
